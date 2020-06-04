@@ -1,0 +1,240 @@
+body{
+    padding: 0%;
+    margin: 0%;
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+/*-------login- continer-------*/
+
+.login-continer{
+    border-radius: 4px;
+    height: 350px;
+    width: 70%;
+    overflow: hidden;
+    background-color: rgba(82, 67, 67, 0.767);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*-------left-text-------*/
+
+.login-title-left{
+    float: left;
+    font-family:'Times New Roman', Times, serif ;
+    color: rgba(255, 255, 255, 0.699);
+    width: 30%;
+    height: 200px;
+    position: relative;
+    top: 30px;
+    left:50px ;
+}
+.title{
+    font-family: sans-serif;
+    
+}
+
+.para{
+    text-align: justify;
+    font-size: 17px;
+    
+}
+    
+/*-------SingUP-button-left------*/
+
+.button-left{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height:40px ;
+    font-size: 15px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: bold;
+
+}
+
+
+/*----------Right-text---------*/
+
+.login-title-right{
+    float: right;
+    font-family:'Times New Roman', Times, serif ;
+    color: rgba(255, 255, 255, 0.699);
+    width: 35%;
+    height: 300px;
+    position: relative;
+    right:40px;
+    top: 30px;
+    }
+
+/*-------SingUP-button-right-------*/
+
+    .button-right{
+    border: 1px solid white;
+    border-radius: 5px;
+    width: 100px;
+    height:40px ;
+    font-size: 15px;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.699);
+    font-weight: bold;
+    margin-top: 25px;
+    margin-left: 230px;    
+
+}
+button {
+    cursor: pointer !important;
+}
+input {
+    margin-top: 20PX;
+}
+/*-------SingUP-button-hover-------*/
+
+    .button-left:hover ,.button-right:hover{
+        background-color: rgba(250, 128, 114, 0.815);
+        color:white;
+    }
+
+/*-------end of Text-------*/
+/*-------Start Input fileds -------*/
+
+/*-------hidden Input type left-------*/
+
+.hidden-login-form-left{
+    position: absolute;
+    top: 70px;
+    left:230px;
+    width: 33%;
+    height: 400px;
+    display: none;
+    text-align: ;
+    border-radius: 2px;  
+    z-index: 1;
+    transition: 500ms;
+}
+
+.form-title{
+    color:salmon;
+    font-family: sans-serif;
+    font-size:30px;
+    font-weight:lighter;
+    margin-left: 40px;
+    margin-top: 50px;
+  
+}
+
+.input-type-name{
+    background-image: url(img/account.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 20px;
+    width: 70%;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgba(226, 219, 219, 0.76);
+    border: none;
+    border-bottom: 2px solid rgba(219, 212, 212, 0.555);
+    background-color: transparent;
+}
+
+
+.input-type-email{
+    background-image: url(img/email.jpg);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 20px;
+    width: 70%;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgba(226, 219, 219, 0.76);
+    border: none;
+    border-bottom: 2px solid rgba(219, 212, 212, 0.555);
+    background-color: transparent;
+}
+
+.input-type-password{
+    background-image: url(img/lock.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-size: 20px;
+    width: 70%;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    margin-left: 40px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color:rgba(226, 219, 219, 0.76);
+    border: none;
+    border-bottom: 2px solid rgba(219, 212, 212, 0.555);
+    background-color: transparent;
+}
+
+.signup-form-btn{
+    border: none;
+    border-radius: 5px;
+    width: 80px;
+    height:30px ;
+    font-size: 15px;
+    background-color: salmon;
+    color: rgba(235, 124, 124, 0.699);
+    font-weight: bold;
+    color:white;
+    margin-top: 25px;
+    margin-left: 160px;    
+ cursor: pointer;
+}
+
+/*-------end hidden Input type left -------*/
+
+/*-------hidden Input type right-------*/
+
+
+.hidden-login-form-right{
+    position: absolute;
+    top: 70px;
+    left:690px;
+    width: 33%;
+    height: 400px;
+    text-align: ;
+    border-radius: 2px;  
+    z-index: 1;
+}
+
+/*-------end hidden Input type right-------*/
+
+.white-continer{
+    width: 33%;
+    height: 400px;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 690px;
+    transition: 250ms;
+    box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Hello World-pAKISTAN-hjhgljhglhhgl</h1>
-    <h1>Pado zor zor sy</h1>
-</body>
+<html>
+    <head>
+        <title>Login with Fun</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="login-continer">
+            <div class="login-title-left" id="signuptitle">
+                <h2 class="title">Dont Have an Account?</h2>
+                <p class="para">Sing up Here and Enjoy the lot of things ones  You will be Registerd then your Reliablity is our Priority </p>
+                <button class="button-left" onclick="signup()">Sing UP</button>
+            </div>
+            <div class="login-title-right" id="logintitle">
+                <h2 class="title">Login If You Have Accout.</h2>
+                <p class="para">Login Please a World Bigest Comunity Waiting For you.and learn With Us. </p>
+                <button class="button-right" onclick="login()">Login</button>
+           </div>
+           <div class="hidden-login-form-left" id="signupform">
+                <h2 class="form-title">Sign up</h2>
+                <form action="">
+                    <input class="input-type-name" type="text" placeholder="Full Name">
+                    <input class="input-type-email" type="email" placeholder="Email">
+                    <input class="input-type-password" type="Password" placeholder="Password">
+                </form>
+                <button class="signup-form-btn">Sign up</button>
+           </div>
+           
+           <div class="hidden-login-form-right" id="loginform">
+                <h2 class="form-title">Login</h2>
+                <form action="">
+                  <input class="input-type-email" type="email" placeholder="Email">
+                  <input class="input-type-password" type="Password" placeholder="Password">
+                </form>
+                <button class="signup-form-btn" >Login</button>
+           </div>
+           <div class="white-continer" id="reality"></div>
+        </div>
+           <script src="script.js"></script>
+    </body>
 </html>
